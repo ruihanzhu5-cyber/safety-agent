@@ -2,11 +2,6 @@
 
 这个仓库保存 Tool-Using LLM Agent 在 prompt injection 造成外部副作用后的恢复研究记录。下面两份文档按用户提供的原文完整收录；实验结果的可核查文件集中在 [docs/data](docs/data/)，阶段周报在 [docs/weekly](docs/weekly/)。
 
-## 项目导航
-
-- [科研周报网页](docs/weekly/2026-09-16/index.html) / [Markdown 日志](docs/weekly/2026-09-16/report.md)
-- [实验数据目录与口径](docs/data/README.md) / [实验文件清单](docs/data/manifest.json) / [文件哈希校验](tools/verify_archive.py)
-- [GitHub Pages 首页](https://ruihanzhu5-cyber.github.io/safety-agent/)
 
 ## 仓库目录
 

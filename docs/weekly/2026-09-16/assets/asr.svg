@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 280" role="img" aria-label="各套件官方 checker ASR：Workspace 0.09%，Slack 1.67%，Banking 2.26%，Travel 7.68%">
-<style>text{font-family:Arial,"Microsoft YaHei",sans-serif;fill:#17324a}.bar{fill:#477791}.grid{stroke:#dce5ec;stroke-width:1}</style>
-<text x="20" y="25" font-size="15" font-weight="700">官方 checker ASR（已完成模板；并非真实外部伤害率）</text>
-<g font-size="14"><text x="20" y="70">Workspace</text><text x="20" y="120">Slack</text><text x="20" y="170">Banking</text><text x="20" y="220">Travel</text></g>
-<g class="grid"><line x1="160" y1="45" x2="160" y2="240"/><line x1="285" y1="45" x2="285" y2="240"/><line x1="410" y1="45" x2="410" y2="240"/><line x1="535" y1="45" x2="535" y2="240"/><line x1="660" y1="45" x2="660" y2="240"/></g>
-<g fill="#477791"><rect x="160" y="53" width="6" height="24" rx="3"/><rect x="160" y="103" width="104" height="24" rx="3"/><rect x="160" y="153" width="141" height="24" rx="3"/><rect x="160" y="203" width="480" height="24" rx="3"/></g>
-<g font-size="14" font-weight="700"><text x="176" y="71">0.09% (1/1120)</text><text x="274" y="121">1.67% (7/420)</text><text x="311" y="171">2.26% (13/576)</text><text x="650" y="221">7.68% (43/560)</text></g>
-<g font-size="12"><text x="156" y="260">0</text><text x="281" y="260">2%</text><text x="406" y="260">4%</text><text x="531" y="260">6%</text><text x="656" y="260">8%</text></g>
-</svg>

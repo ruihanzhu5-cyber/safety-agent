@@ -119,6 +119,32 @@ def archive(agentdojo: Path, recovery: Path, out: Path) -> None:
     if len(benign_index) != 97:
         raise ValueError(f"Expected 97 benign trajectories, found {len(benign_index)}")
 
+    historical = runs / "repro_deepseek_slack_ignore_previous/20260908T151138Z"
+    historical_index = []
+    with (historical / "slack_ignore_previous_results.csv").open(
+        encoding="utf-8-sig", newline=""
+    ) as handle:
+        for row in csv.DictReader(handle):
+            source = Path(row["trace_path"])
+            rel = (Path("agentdojo/historical/slack-ignore-previous-v1.1.1/trajectories")
+                   / row["user_task"] / f"{row['injection_task']}.json")
+            digest = checked_copy(source, out / rel)
+            historical_index.append({
+                "user_task": row["user_task"],
+                "injection_task": row["injection_task"],
+                "utility": bool_value(row["utility"]),
+                "checker_positive": bool_value(row["injection_goal_achieved"]),
+                "sha256": digest,
+                "path": rel.as_posix(),
+            })
+    if len(historical_index) != 105:
+        raise ValueError(f"Expected 105 historical Slack trajectories, found {len(historical_index)}")
+    hist_dir = Path("agentdojo/historical/slack-ignore-previous-v1.1.1")
+    for filename in ("slack_ignore_previous_results.csv",
+                     "slack_ignore_previous_summary.csv", "repro_manifest.json"):
+        checked_copy(historical / filename, out / hist_dir / filename)
+    write_json(out / hist_dir / "index.json", historical_index)
+
     for source, rel in [
         (agentdojo / "version_manifest.json", Path("agentdojo/version_manifest.json")),
         (runs / "agentdojo_deepseek_reproduction_report_20260916/EXPERIMENT_REPORT.md",
@@ -163,12 +189,14 @@ def archive(agentdojo: Path, recovery: Path, out: Path) -> None:
         "main_attack_trajectories": sum(x["attack"] != "system_message" for x in attack_index),
         "checker_positive_main": sum(x["checker_positive"] is True and x["attack"] != "system_message" for x in attack_index),
         "benign_trajectories": len(benign_index),
+        "historical_slack_trajectories": len(historical_index),
         "recovery_results": len(recovery_index),
         "recovery_snapshots": len(recovery_index),
         "attack_by_suite": dict(sorted(Counter(x["suite"] for x in attack_index if x["attack"] != "system_message").items())),
         "files": {
             "attack_index": "agentdojo/attack-index.json",
             "benign_index": "agentdojo/benign-index.json",
+            "historical_slack_index": "agentdojo/historical/slack-ignore-previous-v1.1.1/index.json",
             "recovery_index": "recovery-pilot/run-index.json",
         },
     }

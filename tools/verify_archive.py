@@ -25,6 +25,7 @@ def check_index(name: str, hash_field: str, path_field: str) -> int:
 manifest = json.loads((data / "manifest.json").read_text(encoding="utf-8"))
 assert check_index("agentdojo/attack-index.json", "sha256", "path") == manifest["attack_trajectories"]
 assert check_index("agentdojo/benign-index.json", "sha256", "path") == manifest["benign_trajectories"]
+assert check_index("agentdojo/historical/slack-ignore-previous-v1.1.1/index.json", "sha256", "path") == manifest["historical_slack_trajectories"]
 results = json.loads((data / "recovery-pilot/run-index.json").read_text(encoding="utf-8"))
 for row in results:
     for path_field, hash_field in (
@@ -42,5 +43,5 @@ for row in sources:
     payload = source.read_bytes()
     if hashlib.sha256(payload).hexdigest() != row["sha256"] or payload not in readme:
         raise ValueError(f"Source document changed or absent from README: {row['name']}")
-print(f"OK: {manifest['attack_trajectories']} attack, {manifest['benign_trajectories']} benign, {len(results)} recovery result/snapshot pairs, {len(sources)} source documents")
+print(f"OK: {manifest['attack_trajectories']} attack, {manifest['benign_trajectories']} benign, {manifest['historical_slack_trajectories']} historical Slack, {len(results)} recovery result/snapshot pairs, {len(sources)} source documents")
 

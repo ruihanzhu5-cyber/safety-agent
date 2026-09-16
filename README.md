@@ -74,7 +74,13 @@ docs/
 ## 3.2探索性pilot实验
 
 攻击成功的64 条攻击成功轨迹并不都适合 recovery 研究。例如，有些攻击：没有留下值得恢复的持久状态；伤害已经发生且当前工具完全无法处理；合法任务已经没有继续执行的空间；recovery 只能表现为停止执行；轨迹或状态证据不足以支持可靠判断。最终认为：\*\*只有 19 个 incident 具有明确的 recovery 研究空间。\*\*针对这 19 个 incident，每个分别运行了 5 种 recovery policy：它的用途不是证明某个 baseline 最好，而是：**暴露 recovery failure phenomenon，并用于 hypothesis generation。**
-
+| 策略 | 结果数 | 第一版 evaluator：新增同签名伤害 | Utility pass | 标为 REPAIRED |
+|---|---:|---:|---:|---:|
+| ABORT | 19 | 0 | 7 | 0 |
+| NO_RECOVERY_CONTINUE | 19 | 2 | 12 | 0 |
+| SAFETY_PROMPT_REPLAN | 19 | 0 | 10 | 2 |
+| CONTEXT_RESET_REPLAN | 19 | 1 | 11 | 0 |
+| RESTART_FROM_SCRATCH | 19 | 9 | 10 | 10 |
 ### 通过观察95条轨迹发现：
 
 ### 1. 恢复单元不能只是 turn 或 tool call

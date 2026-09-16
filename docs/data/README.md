@@ -4,9 +4,8 @@
 
 | 数据组 | 文件 / 口径 | 入口 |
 |---|---:|---|
-| AgentDojo 攻击复现 | 2820 条有效 JSON；其中论文四模板 2676 条，额外 Banking `system_message` 144 条 | [attack-index.json](agentdojo/attack-index.json) |
-| AgentDojo benign | 97 条原始 JSON；其中 95 条有效、2 条 Travel 基础设施异常 | [benign-index.json](agentdojo/benign-index.json) |
-| 历史 Slack 攻击批次 | 105 条 v1.1.1 `ignore_previous` 原始 JSON，单列保存，不计入主结果 | [历史索引](agentdojo/historical/slack-ignore-previous-v1.1.1/index.json) |
+| AgentDojo 攻击复现 | 2820 条有效 JSON；其中论文四模板 2676 条| [attack-index.json](agentdojo/attack-index.json) |
+| AgentDojo benign | 97 条原始 JSON| [benign-index.json](agentdojo/benign-index.json) |
 | 事故筛选 | 64 条 checker 阳性中 19 条确认有害外部副作用 | [incident_triage.jsonl](triage/incident_triage.jsonl) |
 | Recovery pilot | 19 incident × 5 policy = 95 个结果 JSON 与 95 个终态快照 | [run-index.json](recovery-pilot/run-index.json) |
 | 总清单 | 数据规模、分组和索引路径 | [manifest.json](manifest.json) |

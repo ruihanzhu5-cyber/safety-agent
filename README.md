@@ -20,9 +20,7 @@ docs/
     ├── agentdojo/              # 复现轨迹、逐 run CSV、索引
     ├── triage/                 # 事故筛选与恢复机会标注
     └── recovery-pilot/         # 95 个结果与 95 个终态快照
-tools/
-├── archive_experiments.py      # 从本地原始目录复制并校验数据
-└── render_weekly.py            # 从周报 Markdown 生成 HTML
+
 ```
 
 ## 原始文档一：研究进展

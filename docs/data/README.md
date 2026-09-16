@@ -36,7 +36,7 @@ data/
         └── c3_run_001.final_environment.json
 ```
 
-## 使用与口径
+## 使用说明
 
 1. 从 `manifest.json` 进入对应索引。索引里的 `path`、`result_path` 和 `final_environment_path` 均相对于本目录，可用于定位文件；哈希用于核对复制件。
 2. `run-results/` 保留原始逐 run CSV，包括中断后的续跑。规范化 `attack-index.json` 按 `(suite, attack, user_task, injection_task)` 保留最后一个有效结果，避免重复计数。

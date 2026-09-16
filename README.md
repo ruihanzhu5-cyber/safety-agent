@@ -45,10 +45,8 @@ LLM Agent 在已经受到攻击并已经对外部环境造成实际副作用之�
 
 ## 3.1复现agentdojo
 
-我发现恢复机制这部分的工作构造bench的路线有以下几种:
+恢复机制这部分的工作构造bench的路线有以下几种:
 
-|             |                                                                                         |                                                                                                                                                                                                                 |
-| ------------------------------------ | --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **① 基于已有动态环境直接扩展**                   | 在已有 Agent 环境和任务上增加 checkpoint → failure/attack → rollback → re-execute，直接评估恢复前后的任务与环境状态 | WebRollback（EACL 2026）：在现有 Web Agent 任务上显式加入 rollback，使 Agent 能从错误网页状态退回历史状态并重新规划，是“已有环境 + 回滚机制”最直接的代表。([ACL Anthology](https://aclanthology.org/2026.eacl-short.12/?utm_source=chatgpt.com))                   |
 | **② 在已有攻击流程后增加 Recovery Stage**      | 保留已有攻击注入和攻击成功判定，在攻击成功后继续加入污染定位、删除、修复和恢复评测，把 attack-only Bench 扩展成 attack→recovery Bench | MemSecBench（2026）：采用 Write→Execute→Forget/Repair 协议，在记忆投毒成功后继续测试选择性修复，把安全评测从“攻击是否成功”推进到“攻击后能否清除污染”。([arXiv](https://arxiv.org/abs/2607.27080?utm_source=chatgpt.com))                                           |
 | **③ 外挂式 Recovery Harness / Wrapper** | 在 Agent 与工具环境之间增加统一恢复层，记录 checkpoint、状态变化和不可逆副作用；异常后由恢复层完成定位、回滚、降权或重新执行                 | SafeHarness（2026）：在 Agent harness 生命周期中集成异常检测、安全回滚和自适应权限降级；ACRFence（2026）：作为框架无关层记录不可逆工具副作用，通过 replay-or-fork 防止回滚导致重复支付、权限复活等二次风险。([arXiv](https://arxiv.org/abs/2604.13630?utm_source=chatgpt.com))           |

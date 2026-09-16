@@ -316,33 +316,7 @@ Context reset 只能清除 Agent 当前的推理上下文，但不会自动清�
 - 可逆、可补偿和不可逆副作用；
 - 恢复过程中的状态修复、污染隔离、重复动作控制和任务继续执行。
 
-## 三 研究假设
-
-### 3.1 假设一 恢复粒度不匹配
-
-当合法效果与恶意效果被绑定在同一个粗粒度恢复单元中时，call-level recovery 只能整体保留或整体撤销，因而会在安全性与任务效用之间产生冲突。
-
-可检验预测为：
-
-> 在 mixed-effect case 中，field-level 或 effect-level recovery 相比 call-level rollback，能够移除更多恶意效果，同时保留更多合法进度。
-
-### 3.2 假设二 信任重置不匹配
-
-清除 Agent 的推理上下文不会自动清除环境中的恶意网页、Slack 消息、邮件或文件。当污染源仍可被观察时，恢复 Agent 可能再次读取污染内容并产生新的受攻击动作。
-
-可检验预测为：
-
-> 在 persistent-source case 中，context-only reset 的重新感染率和污染到动作传播率高于 source quarantine 或 sanitized observation。
-
-### 3.3 假设三 执行连续性不匹配
-
-仅重置 Agent 内部历史而不记录已经提交的外部效果，会使恢复 Agent 无法区分已完成动作与未完成动作，从而产生重复副作用。
-
-可检验预测为：
-
-> 在存在已提交合法或恶意效果的 case 中，ledger-aware resume 相比 restart 或 context reset，能够显著减少语义重复动作，同时保持任务完成率。
-
-## 四 下一阶段总体路线
+## 三 下一阶段总体路线
 
 实验按照以下顺序开展：
 

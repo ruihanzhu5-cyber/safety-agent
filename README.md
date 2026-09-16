@@ -6,7 +6,6 @@
 
 - [科研周报网页](docs/weekly/2026-09-16/index.html) / [Markdown 日志](docs/weekly/2026-09-16/report.md)
 - [实验数据目录与口径](docs/data/README.md) / [实验文件清单](docs/data/manifest.json) / [文件哈希校验](tools/verify_archive.py)
-- 原文独立副本：[研究进展](docs/source/agent_recovery_research.md) / [实验计划](docs/source/agent_recovery_experiment_plan%20%281%29.md)
 - [GitHub Pages 首页](https://ruihanzhu5-cyber.github.io/safety-agent/)
 
 ## 仓库目录
@@ -14,7 +13,7 @@
 ```text
 docs/
 ├── index.html                  # GitHub Pages 导航
-├── source/                     # 两份未改动的原始 Markdown
+├── source/                     # 原始 Markdown
 ├── weekly/2026-09-16/          # HTML 周报、Markdown 日志与图
 └── data/
     ├── manifest.json           # 数据集总清单
@@ -26,7 +25,7 @@ tools/
 └── render_weekly.py            # 从周报 Markdown 生成 HTML
 ```
 
-## 原始文档一：研究进展（以下内容未改动）
+## 原始文档一：研究进展
 
 # 一、选择的研究方向
 
@@ -93,9 +92,8 @@ tools/
 
 ### 通过观察95条轨迹发现：
 
-1.
 
-### 恢复单元不能只是 turn 或 tool call
+### 1. 恢复单元不能只是 turn 或 tool call
 
 轨迹中：
 
@@ -128,9 +126,8 @@ message → assistant turn → tool call
 
 这是这次复现最有价值的实证发现之一。
 
-2.
 
-### Context reset 并不等于 trust reset
+### 2.Context reset 并不等于 trust reset
 
 `CONTEXT_RESET_REPLAN` 清除了对话历史，却保留当前环境。19/19 条都会重新观察环境，因而可能重新读取原始污染内容。
 
@@ -144,9 +141,8 @@ message → assistant turn → tool call
 
 恢复智能体存在一个悖论：它必须检查受损状态才能恢复，但检查本身可能让它再次感染。
 
-3.
 
-### 从头开始不是可靠恢复
+### 3.从头开始不是可靠恢复
 
 `RESTART_FROM_SCRATCH` 在 9/19 条中重新产生伤害：
 
@@ -158,9 +154,9 @@ message → assistant turn → tool call
 
 但我们的现象进一步涉及攻击诱导的重新感染、合法进度保存和恶意状态修复，而不只是 checkpoint retry。
 
-4.
 
-### 清空历史会造成合法副作用重复
+
+### 4.清空历史会造成合法副作用重复
 
 Workspace 案例中，攻击前后的同一轮已经：
 
@@ -178,9 +174,8 @@ Context reset 或 restart 后，智能体不知道哪些合法动作已经完成
 
 程序分析还发现，46/95 条 recovery run 重复了 incident 中已经出现过的调用；其中很多只是读取，但至少存在多条明确的重复 mutation。普通“最终 utility 是否满足”无法检测这种问题。
 
-6.
 
-### 模型的口头说明不能证明状态已修复
+### 5.模型的口头说明不能证明状态已修复
 
 轨迹中出现了模型声称状态“保持原样”或“已经安全处理”，但实际字段仍发生变化的情况。当前 evaluator 只检查攻击签名涉及的部分字段，也可能把不完整恢复标成 repaired/contained。
 
@@ -302,9 +297,9 @@ Context reset 只能清除 Agent 当前的推理上下文，但不会自动清�
 3.这个方向的工作本质感觉是agent在寻找一种的recovery policy，所以我觉得也可以往agentic rl这个方向走，或者multiagent，但是工作量应该会比较大。
 
 
-## 原始文档二：实验计划（以下内容未改动）
+## 原始文档二：实验计划
 
-# 工具型 LLM Agent 攻击后恢复实验计划报告
+# LLM Agent 攻击后恢复实验计划报告
 
 **汇报日期：2026 年 9 月 16 日**  
 **研究阶段：AgentDojo 复现完成后的评测框架与原型实验阶段**
@@ -326,7 +321,7 @@ Context reset 只能清除 Agent 当前的推理上下文，但不会自动清�
 
 本研究拟回答以下问题：
 
-> 工具型 LLM Agent 已经受到 prompt injection 并对外部环境造成实际副作用后，如何识别可信进度，修复或控制受损状态，并在安全允许时继续完成原始任务？
+>  LLM Agent 已经受到 prompt injection 并对外部环境造成实际副作用后，如何识别可信进度，修复或控制受损状态，并在安全允许时继续完成原始任务？
 
 研究对象不是攻击前防御，也不是单纯检测 prompt injection，而是攻击已经成功后的状态转移：
 
@@ -511,9 +506,6 @@ semantic_identity
 第一版实现不要求自动完成所有语义标注。原型 case 可以人工提供 ground truth，evaluator 负责基于环境 diff 和 trajectory 检查实际结果。
 
 ### 6.2 第一版核心指标
-
-Evaluator 不直接输出单一总分，先分别报告以下指标：
-
 | 指标 | 测量内容 |
 |---|---|
 | Harm Remediation | SD 中恶意效果是否被撤销或正确补偿 |

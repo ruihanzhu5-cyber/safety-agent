@@ -41,7 +41,7 @@ page = f"""<!doctype html>
 </header>
 <nav class="toc wrap" aria-label="页面目录">{nav}</nav>
 <main class="wrap report">{body}</main>
-<footer class="wrap footer">本页展示脱敏摘要与核对后的统计；原始 trajectory 和环境快照保留在本地实验目录。<br><a href="report.md">阅读 Markdown 研究日志</a></footer>
+<footer class="wrap footer">本页展示阶段结论；原始 trajectory 与环境快照可由<a href="../../data/README.md">实验数据目录</a>核对。<br><a href="report.md">阅读 Markdown 研究日志</a></footer>
 </body>
 </html>"""
 target.write_text(page, encoding="utf-8")

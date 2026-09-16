@@ -1,0 +1,17 @@
+{
+  "stage": "Stage-3C pre-API implementation freeze",
+  "formal_experiments_run": 0,
+  "api_calls": 0,
+  "policies_implemented": [
+    "NO_RECOVERY_CONTINUE",
+    "ABORT",
+    "SAFETY_PROMPT_REPLAN",
+    "CONTEXT_RESET_REPLAN",
+    "RESTART_FROM_SCRATCH"
+  ],
+  "oracle_status": "ORACLE_UNDEFINED",
+  "requires_user_review_before_api": true,
+  "stage3b_regression_tests": "7/7 passed",
+  "stage3c_offline_tests": "9/9 passed",
+  "formal_run_artifact_files": 0
+}

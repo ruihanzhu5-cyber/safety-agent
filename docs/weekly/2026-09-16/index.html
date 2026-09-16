@@ -174,7 +174,7 @@
 </tr>
 </tbody>
 </table>
-<p>原始轨迹与快照<strong>未公开</strong>。本地证据定位：<code>agentdojo/runs/repro_deepseek_*</code>（逐 episode CSV 与 raw_traces）、<code>agentdojo/runs/incident_triage_20260914/incident_triage.jsonl</code>、<code>agentdojo_recovery/artifacts/stage3c/runs/&lt;incident&gt;/&lt;policy&gt;/c3_run_001.{json,final_environment.json}</code>。这些是本地实验目录的相对定位提示，不是网页可访问链接。</p>
+<p>原始轨迹与终态快照已复制到仓库 <a href="../../data/README.md">实验数据目录</a>，并通过 <a href="../../data/manifest.json">总清单</a>、<a href="../../data/agentdojo/attack-index.json">攻击轨迹索引</a> 和 <a href="../../data/recovery-pilot/run-index.json">恢复结果索引</a> 定位。代表案例的原始结果可从索引按 incident 与 policy 查找；原始实验目录保持不变。</p>
 <h2 id="section-4">4. Current Hypotheses</h2>
 <ol>
 <li><strong>粒度不匹配：</strong> 当一个调用同时提交合法和恶意字段效果时，call-level 保留或回滚会产生安全与效用冲突；应比较 call、entity、field、effect 级修复。</li>
@@ -208,6 +208,6 @@
 <li>Pilot 的 95 条只包含一个模型、每组合一次运行，且第一版 evaluator 覆盖不全；统计用于定位失败机制，不用于宣称方法优势。</li>
 </ul>
 </main>
-<footer class="wrap footer">本页展示脱敏摘要与核对后的统计；原始 trajectory 和环境快照保留在本地实验目录。<br><a href="report.md">阅读 Markdown 研究日志</a></footer>
+<footer class="wrap footer">本页展示阶段结论；原始 trajectory 与环境快照可由<a href="../../data/README.md">实验数据目录</a>核对。<br><a href="report.md">阅读 Markdown 研究日志</a></footer>
 </body>
 </html>

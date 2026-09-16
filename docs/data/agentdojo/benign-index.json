@@ -1,0 +1,584 @@
+[
+  {
+    "suite": "workspace",
+    "user_task": "user_task_0",
+    "sha256": "4dfd3aa3fa0b8fb9716feab2fc4f2ee64285c05bdb77c49593883500acc1ce9c",
+    "path": "agentdojo/benign-trajectories/workspace/user_task_0.json"
+  },
+  {
+    "suite": "workspace",
+    "user_task": "user_task_1",
+    "sha256": "5aec155281452a34d6c31459f3537fa441ee5393635d7249600c8d3fc34309d7",
+    "path": "agentdojo/benign-trajectories/workspace/user_task_1.json"
+  },
+  {
+    "suite": "workspace",
+    "user_task": "user_task_10",
+    "sha256": "7a7df04833ca6cb36669ea834a88786f4de892c708eeb7d2af36f8cca2d7b7fd",
+    "path": "agentdojo/benign-trajectories/workspace/user_task_10.json"
+  },
+  {
+    "suite": "workspace",
+    "user_task": "user_task_11",
+    "sha256": "17a475ad268f2dc6fa423774dd64b8a8a255e3e6c64f4046278c694e7e86d6ee",
+    "path": "agentdojo/benign-trajectories/workspace/user_task_11.json"
+  },
+  {
+    "suite": "workspace",
+    "user_task": "user_task_12",
+    "sha256": "c68d970fcfc8d69d1f9ef8baae571a88fb55b8b5c2cbbbe932d9b86331343142",
+    "path": "agentdojo/benign-trajectories/workspace/user_task_12.json"
+  },
+  {
+    "suite": "workspace",
+    "user_task": "user_task_13",
+    "sha256": "08b3b1f512239f3b2e60eee907c69b131f54a306ca2591e7e1f9ef710b846b98",
+    "path": "agentdojo/benign-trajectories/workspace/user_task_13.json"
+  },
+  {
+    "suite": "workspace",
+    "user_task": "user_task_14",
+    "sha256": "30147ad6f7d19c75954a62749373855ee2759b7913d0c98cca4e35da1115e173",
+    "path": "agentdojo/benign-trajectories/workspace/user_task_14.json"
+  },
+  {
+    "suite": "workspace",
+    "user_task": "user_task_15",
+    "sha256": "5a82df788ed25599cf9b096e870cf507ac856a8a706ec4eb0fe5bc611d8171d7",
+    "path": "agentdojo/benign-trajectories/workspace/user_task_15.json"
+  },
+  {
+    "suite": "workspace",
+    "user_task": "user_task_16",
+    "sha256": "c1552abfd389b1ebcb15b3db1f2e1044d0fe5584564dd71f6b74b4d4c7b6f221",
+    "path": "agentdojo/benign-trajectories/workspace/user_task_16.json"
+  },
+  {
+    "suite": "workspace",
+    "user_task": "user_task_17",
+    "sha256": "a2dd1a42a13178970355e7ff3c02a6c00cd83a04513be60041fa0d0cb9762854",
+    "path": "agentdojo/benign-trajectories/workspace/user_task_17.json"
+  },
+  {
+    "suite": "workspace",
+    "user_task": "user_task_18",
+    "sha256": "bbd9febc61eb3471e67e5c56381cccdb09f9f20e5a4e007de4497b948eadfc55",
+    "path": "agentdojo/benign-trajectories/workspace/user_task_18.json"
+  },
+  {
+    "suite": "workspace",
+    "user_task": "user_task_19",
+    "sha256": "d281fde2237f1f1b4494f116bbf4f3a212af8d2365c99612d7a2ee6245471ba6",
+    "path": "agentdojo/benign-trajectories/workspace/user_task_19.json"
+  },
+  {
+    "suite": "workspace",
+    "user_task": "user_task_2",
+    "sha256": "7456686f6e237ba62f123c918d011d3c8826d986b80d4c7a3e6f573d8cfda323",
+    "path": "agentdojo/benign-trajectories/workspace/user_task_2.json"
+  },
+  {
+    "suite": "workspace",
+    "user_task": "user_task_20",
+    "sha256": "87118b623e36851a332516dce38ac74ab516390ed8d3d9bdd39b4920a1c76aca",
+    "path": "agentdojo/benign-trajectories/workspace/user_task_20.json"
+  },
+  {
+    "suite": "workspace",
+    "user_task": "user_task_21",
+    "sha256": "4f857ce746cc1c53bf4257b2f494e62d67d3912dcd785f0282f6fbe2476a8de3",
+    "path": "agentdojo/benign-trajectories/workspace/user_task_21.json"
+  },
+  {
+    "suite": "workspace",
+    "user_task": "user_task_22",
+    "sha256": "83e78d7f0f25bb3e44ff9b17ffc55b80741bc858a35b178a55bd0da221f44936",
+    "path": "agentdojo/benign-trajectories/workspace/user_task_22.json"
+  },
+  {
+    "suite": "workspace",
+    "user_task": "user_task_23",
+    "sha256": "69fd5a46c92dbea1849adaec37d45f6c7e7b1edce30bf51123f5ce1a1e9056c8",
+    "path": "agentdojo/benign-trajectories/workspace/user_task_23.json"
+  },
+  {
+    "suite": "workspace",
+    "user_task": "user_task_24",
+    "sha256": "c5c0690a9ee71f3818caacbff6f3d861b40c42fbcb97d70c6854cbc8937d84be",
+    "path": "agentdojo/benign-trajectories/workspace/user_task_24.json"
+  },
+  {
+    "suite": "workspace",
+    "user_task": "user_task_25",
+    "sha256": "b0e3958ebfd0e2b93ee5088309f1f8a58bc0b4ce2b750935143117f511af433a",
+    "path": "agentdojo/benign-trajectories/workspace/user_task_25.json"
+  },
+  {
+    "suite": "workspace",
+    "user_task": "user_task_26",
+    "sha256": "162098fd2f01a1663c892a13d69c694517adbeeb6137ee8418c8427c5468f219",
+    "path": "agentdojo/benign-trajectories/workspace/user_task_26.json"
+  },
+  {
+    "suite": "workspace",
+    "user_task": "user_task_27",
+    "sha256": "4be0292c664b695ae03fa6cf8553bd411d3c47d954b6babb1ede30f8f3aad6d6",
+    "path": "agentdojo/benign-trajectories/workspace/user_task_27.json"
+  },
+  {
+    "suite": "workspace",
+    "user_task": "user_task_28",
+    "sha256": "d628bccf4f68b85171f039bfa0154c58ee9b9479caac3962cfe738f231ee5686",
+    "path": "agentdojo/benign-trajectories/workspace/user_task_28.json"
+  },
+  {
+    "suite": "workspace",
+    "user_task": "user_task_29",
+    "sha256": "136097086ca3ecfc34f4aba1d58a673450eca8961b4fb646bcd03a765f558474",
+    "path": "agentdojo/benign-trajectories/workspace/user_task_29.json"
+  },
+  {
+    "suite": "workspace",
+    "user_task": "user_task_3",
+    "sha256": "6a36b31f2b6643c54f3eab560824391ee088534ce98fe7f5ddcdd816b99974f4",
+    "path": "agentdojo/benign-trajectories/workspace/user_task_3.json"
+  },
+  {
+    "suite": "workspace",
+    "user_task": "user_task_30",
+    "sha256": "efae200f848fe814a168833509371c304988968f052deb97eb778fc3a5956c27",
+    "path": "agentdojo/benign-trajectories/workspace/user_task_30.json"
+  },
+  {
+    "suite": "workspace",
+    "user_task": "user_task_31",
+    "sha256": "036b01c1f54b3ae7fb4467b62699e6c7aab8fd64cb9dc0250fd33970d23b205d",
+    "path": "agentdojo/benign-trajectories/workspace/user_task_31.json"
+  },
+  {
+    "suite": "workspace",
+    "user_task": "user_task_32",
+    "sha256": "6ba87a951c2f9642e84fc92b4203833030d9f3cd03e885497065c6c18d8c9a36",
+    "path": "agentdojo/benign-trajectories/workspace/user_task_32.json"
+  },
+  {
+    "suite": "workspace",
+    "user_task": "user_task_33",
+    "sha256": "4017fcff04936ee6770214d35c8e2d1de2547790d1403a9287991352e3e03850",
+    "path": "agentdojo/benign-trajectories/workspace/user_task_33.json"
+  },
+  {
+    "suite": "workspace",
+    "user_task": "user_task_34",
+    "sha256": "58253476e3b0f718767cf94244078493f2f68516d3a7e4591937c2ad695e8b00",
+    "path": "agentdojo/benign-trajectories/workspace/user_task_34.json"
+  },
+  {
+    "suite": "workspace",
+    "user_task": "user_task_35",
+    "sha256": "983237c60067885a47a416c39a7734611b78ae032b54298906aff097fdae1062",
+    "path": "agentdojo/benign-trajectories/workspace/user_task_35.json"
+  },
+  {
+    "suite": "workspace",
+    "user_task": "user_task_36",
+    "sha256": "e0d5a1876458a7169dcbe3d4444f245d6a289b745742cd806028e61cf56d43dd",
+    "path": "agentdojo/benign-trajectories/workspace/user_task_36.json"
+  },
+  {
+    "suite": "workspace",
+    "user_task": "user_task_37",
+    "sha256": "be9ca2055e67eaab88046c46272609a35293f52943afb6463aa52f9b5f45ea6e",
+    "path": "agentdojo/benign-trajectories/workspace/user_task_37.json"
+  },
+  {
+    "suite": "workspace",
+    "user_task": "user_task_38",
+    "sha256": "abc53b84024e87b3f74a8db3fec75448274d33d51d489f43ff75f0fef9e40b39",
+    "path": "agentdojo/benign-trajectories/workspace/user_task_38.json"
+  },
+  {
+    "suite": "workspace",
+    "user_task": "user_task_39",
+    "sha256": "d89e658b4b31903436c976592a62df02e07d8360175b28b615ea558fc4059ec7",
+    "path": "agentdojo/benign-trajectories/workspace/user_task_39.json"
+  },
+  {
+    "suite": "workspace",
+    "user_task": "user_task_4",
+    "sha256": "80f68051f43b366c6c94c414d0f0e461d99eb014f77d4db24f0ed5a0282e23fb",
+    "path": "agentdojo/benign-trajectories/workspace/user_task_4.json"
+  },
+  {
+    "suite": "workspace",
+    "user_task": "user_task_5",
+    "sha256": "2fbc55e98219e900b2b5331a776396489ee88198e606c48723f8c640d62d00f7",
+    "path": "agentdojo/benign-trajectories/workspace/user_task_5.json"
+  },
+  {
+    "suite": "workspace",
+    "user_task": "user_task_6",
+    "sha256": "abfe87ffe336dcd49de7430cc29a3c302358b777ec9e3a7dc42533d65b8b1c3d",
+    "path": "agentdojo/benign-trajectories/workspace/user_task_6.json"
+  },
+  {
+    "suite": "workspace",
+    "user_task": "user_task_7",
+    "sha256": "37853d62e160fa44535ef7eb4f41019f1e37af128323866ed03f1a8288cd91c0",
+    "path": "agentdojo/benign-trajectories/workspace/user_task_7.json"
+  },
+  {
+    "suite": "workspace",
+    "user_task": "user_task_8",
+    "sha256": "1b06aa63f9c6b3fc248937b6ca7199cbd963411f44ed1ce105b157c9b43a13e0",
+    "path": "agentdojo/benign-trajectories/workspace/user_task_8.json"
+  },
+  {
+    "suite": "workspace",
+    "user_task": "user_task_9",
+    "sha256": "bcef27bee72a32d5a4304f868a5d2c3a259010185b9c321f9c36db3aa61b325f",
+    "path": "agentdojo/benign-trajectories/workspace/user_task_9.json"
+  },
+  {
+    "suite": "slack",
+    "user_task": "user_task_0",
+    "sha256": "466d12bf916f1c25f3a5c152389b2a056858a05cf403909a37f0ee294c2b01d6",
+    "path": "agentdojo/benign-trajectories/slack/user_task_0.json"
+  },
+  {
+    "suite": "slack",
+    "user_task": "user_task_1",
+    "sha256": "769f2ad07391e1743927e5c54fef0604377f417493add599d5428ab421694ced",
+    "path": "agentdojo/benign-trajectories/slack/user_task_1.json"
+  },
+  {
+    "suite": "slack",
+    "user_task": "user_task_10",
+    "sha256": "c37b8b68e6274784abd4b60bf27833ef352e94ab46c695ba9dc8aed5e9615c60",
+    "path": "agentdojo/benign-trajectories/slack/user_task_10.json"
+  },
+  {
+    "suite": "slack",
+    "user_task": "user_task_11",
+    "sha256": "b7d6ca2cf74b0a614bc5ff274a0b6fa8bef5b6401c4ac77d3716f4012b1b9079",
+    "path": "agentdojo/benign-trajectories/slack/user_task_11.json"
+  },
+  {
+    "suite": "slack",
+    "user_task": "user_task_12",
+    "sha256": "a120d4b4d0de6fb79f0e9030590998c3652be80b9ed6d6f38f8fba9c7d76f96b",
+    "path": "agentdojo/benign-trajectories/slack/user_task_12.json"
+  },
+  {
+    "suite": "slack",
+    "user_task": "user_task_13",
+    "sha256": "d5a22c73c67c72dad8e452e463ab53321d3e37aba1f733cc87a598df1b6b0bcf",
+    "path": "agentdojo/benign-trajectories/slack/user_task_13.json"
+  },
+  {
+    "suite": "slack",
+    "user_task": "user_task_14",
+    "sha256": "80ce541f87cc08e00c9212bc1cb5cc119c62f4a9fe4a2b7dccf844bbe0083ae1",
+    "path": "agentdojo/benign-trajectories/slack/user_task_14.json"
+  },
+  {
+    "suite": "slack",
+    "user_task": "user_task_15",
+    "sha256": "03bb0d4548cc477a4b8df580465a35824601568fbc42ffc67f6812e322567b78",
+    "path": "agentdojo/benign-trajectories/slack/user_task_15.json"
+  },
+  {
+    "suite": "slack",
+    "user_task": "user_task_16",
+    "sha256": "f831ee3bdf4deb5847f463a5c351ff1dd3ecd9e956614df739f5c10f5295ddcc",
+    "path": "agentdojo/benign-trajectories/slack/user_task_16.json"
+  },
+  {
+    "suite": "slack",
+    "user_task": "user_task_17",
+    "sha256": "cd37628901d9305be3ea07fd04002f51f66165ec9bc57f42b59f1a762263506b",
+    "path": "agentdojo/benign-trajectories/slack/user_task_17.json"
+  },
+  {
+    "suite": "slack",
+    "user_task": "user_task_18",
+    "sha256": "bb06af09b7570a3426db1fbab13ca5a8085925d239a46c9cbef11ca7aa0e562e",
+    "path": "agentdojo/benign-trajectories/slack/user_task_18.json"
+  },
+  {
+    "suite": "slack",
+    "user_task": "user_task_19",
+    "sha256": "304caafc2d41c1c812ac211087e9eb9e4ccdcfa2db2e62cec189ac56cbc44154",
+    "path": "agentdojo/benign-trajectories/slack/user_task_19.json"
+  },
+  {
+    "suite": "slack",
+    "user_task": "user_task_2",
+    "sha256": "af09f2ed7f2726da6818d81cf9ac0f0acd60fe9edc96d7221c5e08d46eaaf0ac",
+    "path": "agentdojo/benign-trajectories/slack/user_task_2.json"
+  },
+  {
+    "suite": "slack",
+    "user_task": "user_task_20",
+    "sha256": "e3280ce3c60fd7d3dfbc3cee924fd4158cf42cfc075e4ec7df9750dd96a219e4",
+    "path": "agentdojo/benign-trajectories/slack/user_task_20.json"
+  },
+  {
+    "suite": "slack",
+    "user_task": "user_task_3",
+    "sha256": "1c649e02cd1faac7d7e728078e993bf2876243b36a065f2e1697444ca74c8c91",
+    "path": "agentdojo/benign-trajectories/slack/user_task_3.json"
+  },
+  {
+    "suite": "slack",
+    "user_task": "user_task_4",
+    "sha256": "9f45285e51a8fa6b621540537a572657a080027cede3b817067fd328bf08958c",
+    "path": "agentdojo/benign-trajectories/slack/user_task_4.json"
+  },
+  {
+    "suite": "slack",
+    "user_task": "user_task_5",
+    "sha256": "2dd3093918217299ba01fe9923de1241565e55a81c32429126e4a8246ebc5ef1",
+    "path": "agentdojo/benign-trajectories/slack/user_task_5.json"
+  },
+  {
+    "suite": "slack",
+    "user_task": "user_task_6",
+    "sha256": "465c34ab39fac88dcea9bd255f10c6fc0a408d64c90f1f612103768dee6fb5b3",
+    "path": "agentdojo/benign-trajectories/slack/user_task_6.json"
+  },
+  {
+    "suite": "slack",
+    "user_task": "user_task_7",
+    "sha256": "b73e04f6b4874193fbe31fd054f3160c537099e3d0a61df0433f0a912d42a164",
+    "path": "agentdojo/benign-trajectories/slack/user_task_7.json"
+  },
+  {
+    "suite": "slack",
+    "user_task": "user_task_8",
+    "sha256": "648c484657732181ec6a48b76975aeaebb8ab346aa0b90f3e3300d0a3c2ec012",
+    "path": "agentdojo/benign-trajectories/slack/user_task_8.json"
+  },
+  {
+    "suite": "slack",
+    "user_task": "user_task_9",
+    "sha256": "de6c0f65654c09a7142521e464fc13b245f9644ddc0ceae145ea4fa0f9a4b0c8",
+    "path": "agentdojo/benign-trajectories/slack/user_task_9.json"
+  },
+  {
+    "suite": "banking",
+    "user_task": "user_task_0",
+    "sha256": "d86432d96a31033f7a18ea2bfea8373f466a1522f8e81016fab2813f7ba0d3c1",
+    "path": "agentdojo/benign-trajectories/banking/user_task_0.json"
+  },
+  {
+    "suite": "banking",
+    "user_task": "user_task_1",
+    "sha256": "8a6ac65b1fd8e9c18011cffc778512d60d940c54c91cc64cab0c683de971b0f7",
+    "path": "agentdojo/benign-trajectories/banking/user_task_1.json"
+  },
+  {
+    "suite": "banking",
+    "user_task": "user_task_10",
+    "sha256": "c94b8887cd2b027ddb7b8977225b62cada604d4ca7d89f91d88308f2dac2c407",
+    "path": "agentdojo/benign-trajectories/banking/user_task_10.json"
+  },
+  {
+    "suite": "banking",
+    "user_task": "user_task_11",
+    "sha256": "4695002b82ff5bb6506f120c3fcd3f75ebc7cb9bca12dd95e3630c2361340497",
+    "path": "agentdojo/benign-trajectories/banking/user_task_11.json"
+  },
+  {
+    "suite": "banking",
+    "user_task": "user_task_12",
+    "sha256": "2df91ab128855dfc7df1e5d3c156cef7dd5d1342499da2c99e2311086e148ede",
+    "path": "agentdojo/benign-trajectories/banking/user_task_12.json"
+  },
+  {
+    "suite": "banking",
+    "user_task": "user_task_13",
+    "sha256": "9975be9a21832db20502327211825edf0b712dce4b7763aa0bf1ca6b158258c2",
+    "path": "agentdojo/benign-trajectories/banking/user_task_13.json"
+  },
+  {
+    "suite": "banking",
+    "user_task": "user_task_14",
+    "sha256": "1ed143559850f7f73919d71168ab39104404d5c8cc96c14172d7299550572f58",
+    "path": "agentdojo/benign-trajectories/banking/user_task_14.json"
+  },
+  {
+    "suite": "banking",
+    "user_task": "user_task_15",
+    "sha256": "ce0f7c1b049b5f8a6f7b2c9de7f6f49b7b44048b8b5179fa64e87a6aabcb2771",
+    "path": "agentdojo/benign-trajectories/banking/user_task_15.json"
+  },
+  {
+    "suite": "banking",
+    "user_task": "user_task_2",
+    "sha256": "26b8bfdba1d02699dc2cb58b139693b67140bce7175a321ac46b469a4f4c444b",
+    "path": "agentdojo/benign-trajectories/banking/user_task_2.json"
+  },
+  {
+    "suite": "banking",
+    "user_task": "user_task_3",
+    "sha256": "d7d135789da2837cf2fdc1a8ba46c872b85e79dea0c5b15530f204c7b21f06cc",
+    "path": "agentdojo/benign-trajectories/banking/user_task_3.json"
+  },
+  {
+    "suite": "banking",
+    "user_task": "user_task_4",
+    "sha256": "2741ede1649e98c32b8f88f7aa3da660ff96a76085f4d2f6e94f02c2f9d37204",
+    "path": "agentdojo/benign-trajectories/banking/user_task_4.json"
+  },
+  {
+    "suite": "banking",
+    "user_task": "user_task_5",
+    "sha256": "c063223781baab09f3faa1a94affb354946dd3d28edfdad40e95e14424ba5c19",
+    "path": "agentdojo/benign-trajectories/banking/user_task_5.json"
+  },
+  {
+    "suite": "banking",
+    "user_task": "user_task_6",
+    "sha256": "d37c9f1a14360b9b961efa7c254d3527d0b9e90bbf0398a159cd2dc4bfa63b51",
+    "path": "agentdojo/benign-trajectories/banking/user_task_6.json"
+  },
+  {
+    "suite": "banking",
+    "user_task": "user_task_7",
+    "sha256": "dddb6a9662e176133c2ebc796a7d5e6fd751edaabe03442d0d93a4d8bcaca266",
+    "path": "agentdojo/benign-trajectories/banking/user_task_7.json"
+  },
+  {
+    "suite": "banking",
+    "user_task": "user_task_8",
+    "sha256": "49b5ac639b3a3ec5891ce0b457ee8834a76a79fb685dd6ce794ce04a06c4c6c8",
+    "path": "agentdojo/benign-trajectories/banking/user_task_8.json"
+  },
+  {
+    "suite": "banking",
+    "user_task": "user_task_9",
+    "sha256": "c04d5727aa8d8d117690a1bf3ebbd960db489d1af1b21825c9be99d5ebf88c07",
+    "path": "agentdojo/benign-trajectories/banking/user_task_9.json"
+  },
+  {
+    "suite": "travel",
+    "user_task": "user_task_0",
+    "sha256": "67fe9906465dc26a3213d6a9b733dc6ceaaaa0e2d82da5f39c98498a6836f617",
+    "path": "agentdojo/benign-trajectories/travel/user_task_0.json"
+  },
+  {
+    "suite": "travel",
+    "user_task": "user_task_1",
+    "sha256": "c6070808d7e8b368220e2deea57b2d71db53c797347329d7a4294c7450c32c3a",
+    "path": "agentdojo/benign-trajectories/travel/user_task_1.json"
+  },
+  {
+    "suite": "travel",
+    "user_task": "user_task_10",
+    "sha256": "36d8bf17210406ca42a059ca6d02eb97e804f3a8b22aebaf20a0f9397cbffd5a",
+    "path": "agentdojo/benign-trajectories/travel/user_task_10.json"
+  },
+  {
+    "suite": "travel",
+    "user_task": "user_task_11",
+    "sha256": "10d00afe60f181905baaa4fdc7e763e553d40bfb80c944806b6a8ea7d96e1b81",
+    "path": "agentdojo/benign-trajectories/travel/user_task_11.json"
+  },
+  {
+    "suite": "travel",
+    "user_task": "user_task_12",
+    "sha256": "e6ed5bba5259d5b1fd047061706b7f0837b9366481dbeaf6d774e7507fd668fb",
+    "path": "agentdojo/benign-trajectories/travel/user_task_12.json"
+  },
+  {
+    "suite": "travel",
+    "user_task": "user_task_13",
+    "sha256": "6404380ea370c44d82340eb7a6d4e2fc8bd5027e4331dd7992d410ab813abfdb",
+    "path": "agentdojo/benign-trajectories/travel/user_task_13.json"
+  },
+  {
+    "suite": "travel",
+    "user_task": "user_task_14",
+    "sha256": "86c06a6416935c1eacbf12726d005c35e61cd067c81fe036f7a6e5c82652234b",
+    "path": "agentdojo/benign-trajectories/travel/user_task_14.json"
+  },
+  {
+    "suite": "travel",
+    "user_task": "user_task_15",
+    "sha256": "8d67ecce77486f5d705821ce48e5577630af86983c13851a3deb95090617eeba",
+    "path": "agentdojo/benign-trajectories/travel/user_task_15.json"
+  },
+  {
+    "suite": "travel",
+    "user_task": "user_task_16",
+    "sha256": "2c7cc3186d825ad2725d9dc61b864a826f38637356f3755595914cb043590842",
+    "path": "agentdojo/benign-trajectories/travel/user_task_16.json"
+  },
+  {
+    "suite": "travel",
+    "user_task": "user_task_17",
+    "sha256": "58fd49be4e016fe17eca17f9d3bec97bdc8a15d21a95efc1166c5b3ff27c76a5",
+    "path": "agentdojo/benign-trajectories/travel/user_task_17.json"
+  },
+  {
+    "suite": "travel",
+    "user_task": "user_task_18",
+    "sha256": "eb83dfde1baabb23d2aff9d99d003b5e9a964631d60d22068070ee747b58cefe",
+    "path": "agentdojo/benign-trajectories/travel/user_task_18.json"
+  },
+  {
+    "suite": "travel",
+    "user_task": "user_task_19",
+    "sha256": "cbbece41034c8a17f9976f8fdfd423cc15492d7f80c7e4978a519744995afd3d",
+    "path": "agentdojo/benign-trajectories/travel/user_task_19.json"
+  },
+  {
+    "suite": "travel",
+    "user_task": "user_task_2",
+    "sha256": "e7a54055e6289dc10245d664920d656b27e949a1a7bccc0b4567de025a4a1001",
+    "path": "agentdojo/benign-trajectories/travel/user_task_2.json"
+  },
+  {
+    "suite": "travel",
+    "user_task": "user_task_3",
+    "sha256": "67484b118c0481f0ae92104bc73f255012ee87ab528263071b34df32fe9b34e6",
+    "path": "agentdojo/benign-trajectories/travel/user_task_3.json"
+  },
+  {
+    "suite": "travel",
+    "user_task": "user_task_4",
+    "sha256": "0cc06c1d531d9c754192c72f4398375373cfe7f415c4abdb22afe09541a7587e",
+    "path": "agentdojo/benign-trajectories/travel/user_task_4.json"
+  },
+  {
+    "suite": "travel",
+    "user_task": "user_task_5",
+    "sha256": "bb4b5eb0cc046e045ea1278388642d88686ec9774e53b2961bca759184e60c0a",
+    "path": "agentdojo/benign-trajectories/travel/user_task_5.json"
+  },
+  {
+    "suite": "travel",
+    "user_task": "user_task_6",
+    "sha256": "4dac944fb6e7edb69f359af15ecd295891cdb75116c45cf56de6c482d8608416",
+    "path": "agentdojo/benign-trajectories/travel/user_task_6.json"
+  },
+  {
+    "suite": "travel",
+    "user_task": "user_task_7",
+    "sha256": "65832ade241a7599a66a14465dc01af1ecc8088e90364499999bdc203d65f615",
+    "path": "agentdojo/benign-trajectories/travel/user_task_7.json"
+  },
+  {
+    "suite": "travel",
+    "user_task": "user_task_8",
+    "sha256": "0a6b06ee29c25390237a34965af247226d28cfe035e79cb70946e61cc886aff1",
+    "path": "agentdojo/benign-trajectories/travel/user_task_8.json"
+  },
+  {
+    "suite": "travel",
+    "user_task": "user_task_9",
+    "sha256": "19164c43e5e69149e707394e7b77cfbb49761931c0b51499e7feac676b8cf253",
+    "path": "agentdojo/benign-trajectories/travel/user_task_9.json"
+  }
+]

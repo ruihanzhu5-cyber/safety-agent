@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "scope": "AgentDojo DeepSeek reproduction and Stage-3C recovery pilot",
+  "attack_trajectories": 2820,
+  "main_attack_trajectories": 2676,
+  "checker_positive_main": 64,
+  "benign_trajectories": 97,
+  "recovery_results": 95,
+  "recovery_snapshots": 95,
+  "attack_by_suite": {
+    "banking": 576,
+    "slack": 420,
+    "travel": 560,
+    "workspace": 1120
+  },
+  "files": {
+    "attack_index": "agentdojo/attack-index.json",
+    "benign_index": "agentdojo/benign-index.json",
+    "recovery_index": "recovery-pilot/run-index.json"
+  }
+}

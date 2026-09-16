@@ -1,0 +1,3 @@
+README.md -text
+docs/source/** -text
+docs/data/** -text

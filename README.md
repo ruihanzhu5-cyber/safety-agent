@@ -13,8 +13,8 @@ docs/
 └── data/
     ├── manifest.json           # 数据集总清单
     ├── agentdojo/              # 复现轨迹、逐 run CSV、索引
-    ├── triage/                 # 事故筛选与恢复机会标注
-    └── recovery-pilot/         # 95 个结果与 95 个终态快照
+    ├── triage/                 # 64个case里面选19个
+    └── recovery-pilot/         # 95 个结果
 
 ```
 

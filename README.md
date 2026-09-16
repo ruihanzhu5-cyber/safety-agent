@@ -74,7 +74,7 @@ docs/
 ## 3.2探索性pilot实验
 
 攻击成功的64 条攻击成功轨迹并不都适合 recovery 研究。例如，有些攻击：没有留下值得恢复的持久状态；伤害已经发生且当前工具完全无法处理；合法任务已经没有继续执行的空间；recovery 只能表现为停止执行；轨迹或状态证据不足以支持可靠判断。最终认为：\*\*只有 19 个 incident 具有明确的 recovery 研究空间。\*\*针对这 19 个 incident，每个分别运行了 5 种 recovery policy：它的用途不是证明某个 baseline 最好，而是：**暴露 recovery failure phenomenon，并用于 hypothesis generation。**
-| 策略 | 结果数 | 第一版 evaluator：新增同签名伤害 | Utility pass | 标为 REPAIRED |
+| 策略 | 结果数 | 第一版 evaluator：新增伤害 | Utility pass | 标为 REPAIRED |
 |---|---:|---:|---:|---:|
 | ABORT | 19 | 0 | 7 | 0 |
 | NO_RECOVERY_CONTINUE | 19 | 2 | 12 | 0 |
@@ -211,7 +211,7 @@ SF：恢复后的终态
 
 发现evaluation的异常后，回到顶会工作调研发现：recovery evaluator 的测量对象不应是孤立的终态，而应是同一 incident 中，从真实 post-harm state 出发的、有因果证据的状态转移。
 
-# 四、形成的三个假设
+# 四、目前形成的三个假设
 
 ### 假设一：恢复粒度不匹配
 
@@ -282,7 +282,7 @@ Context reset 只能清除 Agent 当前的推理上下文，但不会自动清�
 
 1.持续arxiv跟踪这个方向的最新工作，可能还要进一步缩小假设
 
-2.通过复现的问题是，找到攻击成功的轨迹很难，也就是说如果单纯从现有的已经搭好的bench出发复现收集失败轨迹，效率比较低，因为每个bench的评价metrics不同，asr指标上不去就收不到样本，所以后期的话我计划走利用现有的环境，然后自己改造下agentdojo，我也查了很多研究恢复机制的工作也是走的这个路线
+2.通过复现的问题是，找到攻击成功的轨迹很难，也就是说如果单纯从现有的已经搭好的bench出发复现收集失败轨迹，效率比较低，因为每个bench的评价metrics不同，asr指标上不去就收不到样本，所以后期的话我计划 利用现有的环境，然后自己改造下agentdojo，我也查了很多研究恢复机制的工作也是走的这个路线
 
 3.这个方向的工作本质感觉是agent在寻找一种的recovery policy，所以我觉得也可以往agentic rl这个方向走，或者multiagent，但是工作量应该会比较大。
 
